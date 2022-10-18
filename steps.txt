@@ -1,0 +1,32 @@
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/HunbalNXT/git_tutorial.git
+git push -u origin main
+
+git branch
+git clone
+Usage: git status
+#This command lists all the files that have to be committed.
+
+git checkout <branch>
+git checkout -b <branch>
+git pull
+git stash
+git stash apply
+git pull origin <branch>
+git fetch
+pull request
+
+
+git reset [<mode>] [<commit>]
+--hard
+Resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded. Any untracked files or directories in the way of writing any tracked files are simply deleted.
+
+
+Usage: git stash pop
+#This command restores the most recently stashed files.
+Usage: git stash list
+#This command lists all stashed changesets.
+Usage: git stash drop
+#This command discards the most recently stashed changeset.
