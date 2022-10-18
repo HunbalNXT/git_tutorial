@@ -30,3 +30,5 @@ Usage: git stash list
 #This command lists all stashed changesets.
 Usage: git stash drop
 #This command discards the most recently stashed changeset.
+
+config commands
